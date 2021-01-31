@@ -1,38 +1,23 @@
 .App {
-  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+  background-image: url("https://img.freepik.com/free-vector/abstract-background-with-gradient-shapes_23-2148705497.jpg?size=626&ext=jpg&ga=GA1.2.1265595294.1611014400");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  background: linear-gradient(
+    116.2deg,
+    rgba(255, 255, 255, 0.39) 0.76%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
+  backdrop-filter: blur(100px);
+  /* Note: backdrop-filter has minimal browser support */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 30px;
 }

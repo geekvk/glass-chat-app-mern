@@ -1,0 +1,17 @@
+.sidebarchat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 1px solid #f6f6f6;
+}
+.sidebarchat__messageInfo {
+  margin-left: 15px;
+}
+
+.sidebarchat:hover {
+  background-color: #cdffe0;
+}
+.sidebarchat__messageInfo > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
